@@ -8,5 +8,8 @@ class Student < User
 
     def learn(subject)
         knowledge << subject
-    end   
+    end
+
+    def knowledge
+        @knowledge
 end
